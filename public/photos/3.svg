@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder photo three">
+  <rect width="800" height="1000" fill="#020617"/>
+  <rect x="1" y="1" width="798" height="998" fill="none" stroke="#D1D4BD" stroke-width="2"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Inter, sans-serif" font-size="48" font-weight="500" fill="#E8B7BC">Giulia</text>
+  <text x="400" y="560" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" fill="#A1A1AA">photo 3</text>
+</svg>

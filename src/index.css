@@ -1,0 +1,93 @@
+:root {
+  --primary: #34d399;
+  --secondary: #60a5fa;
+  --accent: #60a5fa;
+  --background: #030303;
+  --surface: #18181b;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --border: #27272a;
+
+  --space-base: 8px;
+  --gap: 16px;
+  --card-padding: 24px;
+  --section-padding: 80px;
+
+  --radius-card: 8px;
+  --radius-control: 8px;
+  --radius-pill: 9999px;
+
+  --font-display: 'Geist', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Geist', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+
+  font: 18px/1.6 var(--font-body);
+  color: var(--text-primary);
+  background: var(--background);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: var(--background);
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  border-inline: 1px solid var(--border);
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+p {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--text-primary);
+}
+
+button {
+  font-family: var(--font-mono);
+  cursor: pointer;
+}
